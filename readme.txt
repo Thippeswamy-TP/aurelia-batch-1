@@ -23,3 +23,9 @@ git branch BRANCH_NAME //create a new branch
 git checkout BRANCH_NAME //gets into the specified branch
 
 git pull origin BRANCH_NAME //pulling latest changes from remote repository to local repository
+
+git stash //copy the changes to the clipboard
+git stash apply //restore the changes to the branch
+
+git diff //show the differences between existing vs modified changes for all files 
+git diff FILE_PATH //show the differences between existing vs modified changes for mentioned file path
