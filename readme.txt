@@ -29,3 +29,5 @@ git stash apply //restore the changes to the branch
 
 git diff //show the differences between existing vs modified changes for all files 
 git diff FILE_PATH //show the differences between existing vs modified changes for mentioned file path
+
+git branch -d BRANCH_NAME // this will delete the branch in local system
